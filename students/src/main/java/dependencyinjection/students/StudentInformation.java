@@ -1,5 +1,6 @@
 package dependencyinjection.students;
-
+import org.springframework.stereotype.Component;
+@Component
 public class StudentInformation {
     private final StudentService Studentdetails;
 // CONSTRUCTOR INJECTION

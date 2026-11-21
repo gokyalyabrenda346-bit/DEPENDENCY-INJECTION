@@ -7,7 +7,7 @@ public class StudentInformation {
     public StudentInformation(StudentService studentdetails) {
         Studentdetails= studentdetails;
     }
-    public void showstudent(){
+    public void showstudents(){
         Studentdetails.displaystudent();
     }
 }

@@ -8,6 +8,6 @@ public class StudentsApplication {
 		ApplicationContext context =SpringApplication.run(StudentsApplication.class, args);
 		  StudentInformation information =
 				  context.getBean(StudentInformation.class);
-				  information.showstudent();
+				  information.showstudents();
 	}
 }

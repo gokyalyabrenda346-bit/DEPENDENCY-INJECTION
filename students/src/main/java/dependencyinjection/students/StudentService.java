@@ -1,6 +1,6 @@
 package dependencyinjection.students;
-import org.springframework.stereotype.Component;
-@Component
+import org.springframework.stereotype.Service;
+@Service
 public class StudentService {
     public void displaystudent(){
         System.out.println("Student Name:Mirembe");
